@@ -3,11 +3,7 @@
 #include <string>
 using namespace std;
 int main(int argc, char *argv[]) {
-	
-	cout << "Ensure you have the source file opened and viewable. Explanations of program instructions can be found there, as well as in the programs.";
 
-	//This declares a group of different characters in the same space in memory, and it declares them as the same data type.
-	//In this case, the array is a char array.
 	cout << "Current instruction: " << "char array[5] = {'A', 'R', 'R', 'A', 'Y'}" << endl;
 	char exampleArray[5] = {'A', 'R', 'R', 'A', 'Y'};
 	cout << "An array may be declared as shown. These values are stored next to one another in memory and may be referenced with an index value like so: " << endl;
@@ -21,35 +17,55 @@ int main(int argc, char *argv[]) {
 	bool accepted = true;
 	while (accepted == true) {
 		if (dataType == "short") {
-			short array[5] {0, 0, 0, 0, 0};
+			short array[5] = {0, 0, 0, 0, 0};
+			cout << "Enter short values for the array (you will be prompted to enter five):";
 			for (int i = 0; i < 5; i++) {
-				cout << "Enter a value for index " << i << ": "
+				cout << "Enter a short value for index " << i << ": ";
 				cin >> array[i];
 				cout << endl;
 			}
 		}
 		else if (dataType == "int") {
-			
+			int array[5] = {0, 0, 0, 0, 0};
 			cout << "Enter integer values for the array (you will be prompted to enter five):";
-			
+			for (int i = 0; i < 5; i++) {
+				cout << "Enter an integer value for index " << i << ": ";
+				cin >> array[i];
+				cout << endl;
+			}
 		}
 		else if (dataType == "float") {
-			
+			float array[5] = {0.0, 0.0, 0.0, 0.0, 0.0};
 			cout << "Enter float values for the array (you will be prompted to enter five):";
+			for (int i = 0; i < 5; i++) {
+				cout << "Enter a float value for index " << i << ": ";
+				cin >> array[i];
+				cout << endl;
+			}
 			
 		}
 		else if (dataType == "double") {
-			
+			double array[5] = {0.0, 0.0, 0.0, 0.0, 0.0};
 			cout << "Enter double values for the array (you will be prompted to enter five):";
+			for (int i = 0; i < 5; i++) {
+				cout << "Enter a double value for index " << i << ": ";
+				cin >> array[i];
+				cout << endl;
+			}
 			
 		}
 		else if (dataType == "boolean") {
-			
+			bool array[5] = {false, false, false, false, false};
 			cout << "Enter boolean values for the array (you will be prompted to enter five):";
+			for (int i = 0; i < 5; i++) {
+				cout << "Enter a boolean value for index " << i << ": ";
+				cin >> array[i];
+				cout << endl;
+			}
 			
 		}
-		else if (dataType === "string") {
-			
+		else if (dataType == "string") {
+			string array[5] = {"", "", "", "", ""};
 			cout << "Enter string values for the array (you will be prompted to enter five):";
 			
 		}
@@ -58,7 +74,7 @@ int main(int argc, char *argv[]) {
 			accepted = false;
 		}
 	}
-	for (int i = 1; i < 5; i++){	cout << array[i] << endl << endl;
+	/* for (int i = 1; i < 5; i++){	cout << array[i] << endl << endl;
 		
 	}
 	
@@ -71,5 +87,5 @@ int main(int argc, char *argv[]) {
 	cin >> arrayNumbers;
 	numbers[1] = arrayNumbers + aaa;
 	cout << aaa;
-
+	*/
 }
