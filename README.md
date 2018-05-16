@@ -5,6 +5,11 @@ This simple C++ program brings the user through a quick demonstration of C++ arr
 
 The program will show and explain to the user how memory locations and values are stored in a string in memory. The user is brought through a series of examples, demonstrations and interactions. The user will be prompted to enter a wanted data type, and then five consecutive values which will then be stored inside of an array. The user will also be shown how loops can be used to check through an array.
 # Sample code
-
-
-Collaborators: Damien Strand (60005165@ironschools.org) Raymond Fisher (raymond.fisher256@gmail.com).
+cout << "You now have a " << dataType << "array with all indexes declared. With a for loop, you can sift through all of the values using the control variable of the loop." <<endl;
+	cout << "Current instruction: for (i = 0; i < 5; i++) {cout << array[i] << endl;}";
+	for (int i = 0; i < 5; i++) {
+		cout << array[i] << endl;
+	}
+cout << "Now you may take these examples and implement them according to your needs.";
+# Collaborators
+Damien Strand (60005165@ironschools.org) Raymond Fisher (raymond.fisher256@gmail.com).
