@@ -11,5 +11,7 @@ cout << "You now have a " << dataType << "array with all indexes declared. With 
 		cout << array[i] << endl;
 	}
 cout << "Now you may take these examples and implement them according to your needs.";
+# Screenshot
+<img src="ScreenshotRun.png">
 # Collaborators
 Damien Strand (60005165@ironschools.org) Raymond Fisher (raymond.fisher256@gmail.com).
