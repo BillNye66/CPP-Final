@@ -12,6 +12,6 @@ cout << "You now have a " << dataType << "array with all indexes declared. With 
 	}
 cout << "Now you may take these examples and implement them according to your needs.";
 # Screenshot
-<img src="ScreenshotRun.png" width="1200px">
+<img src="ScreenshotRun.png" width="300px">
 # Collaborators
 Damien Strand (60005165@ironschools.org) Raymond Fisher (raymond.fisher256@gmail.com).
